@@ -1,0 +1,13 @@
+{
+  "name": "EduPilot Siswa",
+  "short_name": "EduPilot",
+  "description": "Presensi sekolah dan kelas untuk siswa.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb",
+  "lang": "id",
+  "icons": [{ "src": "/logo-ep.png", "sizes": "any", "type": "image/png" }]
+}
