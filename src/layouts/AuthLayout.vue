@@ -20,12 +20,12 @@ const { isDark, toggleDarkMode } = useTheme()
           aria-hidden="true"
         />
         <div class="relative flex items-center justify-between">
-          <RouterLink to="/login" class="flex items-center gap-2.5 rounded-lg" aria-label="EduPilot Siswa">
+          <RouterLink to="/login" class="flex items-center gap-2.5 rounded-lg" aria-label="Pelita Sekolah Siswa">
             <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-white shadow-sm">
               <img src="/logo-ep.png" alt="" class="h-6 w-6 object-contain" />
             </span>
             <span class="leading-tight">
-              <span class="block text-base font-bold tracking-tight">EduPilot</span>
+              <span class="block text-base font-bold tracking-tight">Pelita Sekolah</span>
               <span class="block text-[11px] font-medium text-blue-100">Aplikasi Siswa</span>
             </span>
           </RouterLink>
@@ -52,7 +52,7 @@ const { isDark, toggleDarkMode } = useTheme()
       </main>
 
       <footer class="px-5 pb-[max(1rem,env(safe-area-inset-bottom))] text-center text-xs text-fg-subtle">
-        &copy; {{ new Date().getFullYear() }} EduPilot
+        &copy; {{ new Date().getFullYear() }} Pelita Sekolah
       </footer>
     </div>
   </div>

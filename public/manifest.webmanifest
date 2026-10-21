@@ -1,6 +1,6 @@
 {
-  "name": "EduPilot Siswa",
-  "short_name": "EduPilot",
+  "name": "Pelita Sekolah Siswa",
+  "short_name": "Pelita Sekolah",
   "description": "Presensi sekolah dan kelas untuk siswa.",
   "start_url": "/",
   "scope": "/",

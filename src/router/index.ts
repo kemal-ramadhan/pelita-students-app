@@ -204,7 +204,7 @@ router.beforeEach(async (to) => {
 
   if (auth.isAuthenticated && !auth.isStudent) {
     await auth.logout()
-    toast.error('Bukan akun siswa', 'Silakan masuk lewat Dasbor Sekolah EduPilot.')
+    toast.error('Bukan akun siswa', 'Silakan masuk lewat Dasbor Sekolah di Pelita Sekolah.')
     return { name: 'login' }
   }
 
@@ -227,7 +227,7 @@ router.beforeEach(async (to) => {
 })
 
 router.afterEach((to) => {
-  document.title = to.meta.title ? `${to.meta.title} · EduPilot Siswa` : 'EduPilot Siswa'
+  document.title = to.meta.title ? `${to.meta.title} · Pelita Sekolah Siswa` : 'Pelita Sekolah Siswa'
 })
 
 export default router

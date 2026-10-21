@@ -224,7 +224,7 @@ async function submit() {
       Kamu punya {{ pendingCount }} pengajuan yang belum dijadwalkan guru BK. Tunggu konfirmasinya dulu sebelum mengajukan lagi.
     </AlertBanner>
     <AlertBanner v-if="noCounselor" tone="warning" title="Belum ada guru BK">
-      Sekolahmu belum menetapkan guru BK di EduPilot. Hubungi wali kelas atau datangi ruang BK secara langsung.
+      Sekolahmu belum menetapkan guru BK di Pelita Sekolah. Hubungi wali kelas atau datangi ruang BK secara langsung.
     </AlertBanner>
 
     <!-- Guru BK -->

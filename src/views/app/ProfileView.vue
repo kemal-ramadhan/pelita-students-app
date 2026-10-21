@@ -173,6 +173,6 @@ async function onFile(e: Event) {
     >
       <LogOut :size="18" aria-hidden="true" /> Keluar
     </button>
-    <p class="text-center text-xs text-fg-subtle">EduPilot Siswa</p>
+    <p class="text-center text-xs text-fg-subtle">Pelita Sekolah Siswa</p>
   </div>
 </template>

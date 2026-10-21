@@ -12,7 +12,7 @@ export function isStudentAccount(user: UserDTO | null | undefined): boolean {
 
 export class NotStudentError extends Error {
   constructor() {
-    super('Akun ini bukan akun siswa. Silakan masuk lewat Dasbor Sekolah EduPilot.')
+    super('Akun ini bukan akun siswa. Silakan masuk lewat Dasbor Sekolah di Pelita Sekolah.')
     this.name = 'NotStudentError'
   }
 }
